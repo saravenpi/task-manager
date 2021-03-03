@@ -8,7 +8,7 @@
 
 ## How to use it:
 
-You just have to clone it and then start the command  `npm install` to install the dependencies and then you can start `npm start` to start the project from you command line interface.
+You just have to clone it and then start the command and make sure to have [node](https://nodejs.org) installed and also [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (the node package manager)`npm install` to install the dependencies and then you can start `npm start` to start the project from you command line interface.
 Then you should be able to see the project on this url: `http://localhost:3000`
 And you are ready to go!
 
