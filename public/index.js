@@ -22,18 +22,19 @@ function update() {
 
 function newtask() {
   var content = document.getElementById("content").value;
-  const json = {
-    method: 'POST',
-    headers: {
-      "Content-type": "application/json",
-      "task": content
+  if (content.trim() != '') {
+    console.log("not empty")
+    const json = {
+      method: 'POST',
+      headers: {
+        "Content-type": "application/json",
+        "task": content
+      }
     }
+    fetch("/new", json).then(function() {
+      document.getElementById("content").value = ""
+    }).then(update())
   }
-
-  fetch("/new", json).then(function() {
-    document.getElementById("content").value = ""
-  }).then(update())
-
 
 }
 
