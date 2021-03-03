@@ -3,7 +3,7 @@ update();
 
 function update() {
   fetch("/get").then(res => res.json()).then(function(json) {
-    console.log(json)
+    console.log(json);
     document.getElementById("tasks").innerHTML = ""
     var list = document.querySelector('#tasks');
     var tasks = json.tasks
@@ -31,7 +31,7 @@ function newtask() {
     }
     fetch("/new", json).then(function() {
       document.getElementById("content").value = ""
-    }).then(update())
+    }).then(update());
   }
 
 }
@@ -52,5 +52,5 @@ function deletetask(id) {
 }
 
 function cleartasks() {
-  fetch("/clear").then(update())
+  fetch("/clear").then(update());
 }

@@ -5,7 +5,7 @@ const app = express();
 var port = 8989
 var tasks = ["go to mars", "buy some food", "walk the cat"]
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 app.get("/", function(req, res) {
   res.sendFile(path.join(public, 'index.html'));
