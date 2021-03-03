@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Task manager</title>
+  <link rel="stylesheet" href="/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="/index.js"></script>
+</head>
+<body>
+  <h2>🌵 Add a new task:</h2>
+  <p>
+    <form>
+      <input type="text" placeholder="content" id="content">
+      <button type="submit" name="button" onclick="newtask();">➕</button>
+    </form>
+  </p>
+  <h2>✔️ Here are your tasks:<button name="clear" onclick="cleartasks();">🗑️</button></h2>
+  <p>
+    <ul id="tasks"></ul>
+  </p>
+</body>
+<html>

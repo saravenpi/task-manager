@@ -1,0 +1,8 @@
+body {
+  font-family: monospace;
+}
+
+li:hover {
+  color: red;
+  cursor: pointer;
+}
