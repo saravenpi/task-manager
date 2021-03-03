@@ -1,5 +1,5 @@
 //on page load:
-update()
+update();
 
 function update() {
   fetch("/get").then(res => res.json()).then(function(json) {
@@ -9,21 +9,19 @@ function update() {
     var tasks = json.tasks
     for (var i = 0; i < tasks.length; i++) {
       task = tasks[i]
-
       let li = document.createElement('li');
-      li.textContent = task;
+      li.textContent = task
       li.setAttribute("onclick", "deletetask(" + i + ");");
-
-      list.append(li)
+      list.append(li);
     }
   });
 
 }
 
 function newtask() {
-  var content = document.getElementById("content").value;
+  var content = document.getElementById("content").value
   if (content.trim() != '') {
-    console.log("not empty")
+    console.log("not empty");
     const json = {
       method: 'POST',
       headers: {
