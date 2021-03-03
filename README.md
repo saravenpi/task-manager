@@ -12,9 +12,9 @@
 - then start the command `npm install` to install the dependencies
 - then you can start `npm start` to start the project from you command line interface.
 
-Then you should be able to see the project on this url: `http://localhost:3000`
+At the end you should be able to see the project on this url: `http://localhost:3000`.
 And you are ready to go!
 
 ## How it's been made:
 
-I've been using NodeJs for this project, with the npm module express, and some Html, Css and Javascript as well.
+I've been using NodeJs for this project, with the npm module [express](https://github.com/expressjs/express), and some Html, Css and Javascript as well.
