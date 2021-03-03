@@ -2,6 +2,10 @@
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/saravenpi)
 
+## How it looks like:
+
+![image](https://i.imgur.com/fyf3jCi.png)
+
 ## How to use it:
 
 You just have to clone it and then start the command  `npm install` to install the dependencies and then you can start `npm start` to start the project from you command line interface.
